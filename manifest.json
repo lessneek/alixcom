@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "alixcom",
+  "version": "1.0",
+
+  "description": "Force using of english version of aliexpress.",
+
+  "icons": {
+    "48": "icons/alixcom-48.png",
+    "96": "icons/alixcom-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.aliexpress.com/*"],
+      "js": ["alixcom.js"]
+    }
+  ]
+
+}
