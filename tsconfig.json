@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "outDir": "./build",
+        "outDir": "./build/js",
         "allowJs": true,
         "target": "ES2017",
         "removeComments": true,
@@ -10,7 +10,7 @@
             "DOM.Iterable",
             "ES2017"
         ],
-        "sourceMap": true
+        "sourceMap": false
     },
     "files": [
         "src/alixcom.ts"

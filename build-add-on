@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+BUILD_DIR="build"
+SRC_DIR="src"
+JS_DIR="$BUILD_DIR/js"
+PACK_DIR="$BUILD_DIR/pack"
+ARTIFACTS_DIR="$BUILD_DIR/web-ext-artifacts"
+
+echo "Building alixcom firefox add-on..."
+
+echo "Cleaning build directory..."
+rm -rf $BUILD_DIR
+
+echo "Compiling source code..."
+tsc
+
+echo "Packing all files..."
+mkdir $PACK_DIR
+cp -v $JS_DIR/alixcom.js $PACK_DIR
+cp -v $SRC_DIR/{manifest.json,alixcom.svg} $PACK_DIR
+
+echo "Packing extension..."
+web-ext -v build -s $PACK_DIR -a $ARTIFACTS_DIR
+
+echo "Done."
