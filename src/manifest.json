@@ -4,7 +4,7 @@
   "name": "alixcom",
   "version": "1.0",
 
-  "description": "Force using of english version of aliexpress.",
+  "description": "Firefox add-on which replaces all wrong language links on the aliexpress.com.",
 
   "browser_specific_settings": {
     "gecko": {
@@ -14,8 +14,8 @@
   },
 
   "icons": {
-    "48": "icons/alixcom.svg",
-    "96": "icons/alixcom.svg"
+    "48": "alixcom.svg",
+    "96": "alixcom.svg"
   },
 
   "content_scripts": [
