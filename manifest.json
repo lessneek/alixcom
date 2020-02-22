@@ -6,6 +6,13 @@
 
   "description": "Force using of english version of aliexpress.",
 
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{500b68ad-3ba3-4f50-a975-eb7eea0e48a1}",
+      "strict_min_version": "73.0"
+    }
+  },
+
   "icons": {
     "48": "icons/alixcom-48.png",
     "96": "icons/alixcom-96.png"
