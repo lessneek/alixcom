@@ -14,8 +14,8 @@
   },
 
   "icons": {
-    "48": "icons/alixcom-48.png",
-    "96": "icons/alixcom-96.png"
+    "48": "icons/alixcom.svg",
+    "96": "icons/alixcom.svg"
   },
 
   "content_scripts": [
