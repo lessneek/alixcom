@@ -6,7 +6,7 @@
             "request": "launch",
             "reAttach": true,
             "name": "Launch alixcom",
-            "addonPath": "${workspaceFolder}"
+            "addonPath": "${workspaceFolder}/build"
         }
     ]
 }
