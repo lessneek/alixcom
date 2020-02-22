@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "outDir": "./",
+        "outDir": "./build",
         "allowJs": true,
         "target": "ES2017",
         "removeComments": true,
@@ -13,6 +13,6 @@
         "sourceMap": true
     },
     "files": [
-        "alixcom.ts"
+        "src/alixcom.ts"
     ]
 }
